@@ -130,6 +130,26 @@ header#head{
     color: #c8a97e;
 }
 
+.angles .topic-header h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.angles .topic-header .nav-contr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 2px solid rgba(255, 255, 255, .2);
+    margin-bottom: 20px;
+}
+
+.angles .topic-header a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
 .speciaties{
     text-align: center;
     color: #fff;
@@ -297,6 +317,24 @@ header#head{
     border: 1px solid #c8a97e;
 }
 
+.menu-container .menu-nav, .menu-nav a{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 40px;
+    align-items: center;
+    text-decoration: none;
+    color: #161515;
+    font-weight: 900;
+    flex-wrap: wrap;
+    padding: 10px 15px;
+    border-radius: 1px;
+    transition: all 0.5s;
+}
+
+.menu-nav a:hover{
+    background-color: #bc8e4f;
+    color: white;
+}
 
 
 .menu-grid .menu-flex{
@@ -663,6 +701,69 @@ header#head{
     border-top: 1px solid rgba(255,255,255,0.5);
 }
 
+
+/* ----------------Contact-page-css---------------------------- */
+
+.contact-page .contact-page-entries{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    place-content: center;
+    place-items: center;
+    
+}
+
+.contact-page-entries .page-map iframe{
+    width: 500px;
+    height: 90vh;
+    
+}
+
+.contact-page-entries .page-form{
+    width: 80%;
+}
+
+.page-form form input, textarea{
+    width: 98.5%;
+    padding: 15px 0;
+    margin-top: 10px;
+    border: none;
+    outline: 1px solid rgba(0, 0, 0, .6);
+    text-indent: 20px;
+    border-radius: 1px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #161515;
+}
+
+.page-form form button{
+    width: 30%;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 700;
+    background:  #ce9b53;
+    border: none;
+    color: white;
+}
+
+.contact-page .contact-info{
+    margin: 50px;
+}
+
+.contact-info .contact-grid{
+    margin: 0;
+}
+
+.reservation-form2{
+    width: 100%;
+    margin: 0;
+}
+
+.reservation-form2 form #button{
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+}
 
 /* lenis */
 html.lenis {
