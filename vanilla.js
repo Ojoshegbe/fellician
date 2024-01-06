@@ -37,3 +37,12 @@ navBar.addEventListener("click", () => {
     nav.classList.toggle("active")
 
 })
+
+
+var loaderPage = document.querySelector('.loader-page')
+var viewPoint = document.querySelector('.viewpoint')
+
+window.addEventListener('load', () => {
+    loaderPage.classList.add("hidden");
+    viewPoint.classList.add("show")
+})
