@@ -177,6 +177,8 @@ header#head{
  padding-bottom: 20px;
 }
 
+
+
 .speciaties-food .speciaties-img{
     width: 100px;
     border-radius: 50%;
@@ -885,6 +887,10 @@ html.lenis {
         font-weight: 100;
         font-size: 10px;
     }
+
+    .speciaties-flex .speciaties-food:nth-child(2){
+        display: none;
+     }
 }
 
 @media screen and (width <= 750px) {
@@ -902,6 +908,9 @@ html.lenis {
     .nav .nav-bar{
         display: inline-block;
     }
+
+    
+   
 
 
     .nav ul{
@@ -963,12 +972,10 @@ html.lenis {
 
 @media screen and (width <= 600px){
 
-    .speciaties-food .speciaties-img{
-        width: 70px;
+    .speciaties-flex .speciaties-food:nth-child(3){
+       display: none;
     }
-    .speciaties h1{
-        font-size: 35px;
-    }
+
 .menu-grid .menu-flex{
     display: flex;
     justify-content: center;
